@@ -1,0 +1,128 @@
+.background {
+    background-image: url("background2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.App {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 6em;
+    color: #1F3A72;
+    padding-top: .5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.App-text {
+    margin: 0 auto;
+    width: 35%;
+    padding: 1em;
+    color: #CAD0E1;
+}
+
+.Yellow-wrap {
+    background-color: #0097E0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Blue-background {
+    background-color: #7D9CC8;
+}
+
+.form-area {
+    box-sizing: border-box;
+    background: rgba(251,203,10,0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.Input-placeholder {
+    text-align: center;
+}
+
+.button {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    border-radius: 300px;
+    width: 200px;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 300px;
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%);
+}
+
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+.albumArt {
+    width: 90%;
+    height: 90%;
+}
+
+.fixed-ratio-resize { /* basic responsive img */
+    max-width: 100%;
+    height: auto;
+    width: auto \9; /* IE8 */
+}
+
+.target-ratio-resize {
+    max-width: 960px; /* actual img width */
+    max-height: 150px; /* actual img height */
+    *height: 150px; /* actual img height - IE7 */
+
+}
+
+.target-ratio-resize:after {
+    content: " ";
+    display: block;
+    width: 100%;
+    padding-top: 33.333%; /* 3:1 ratio */
+}
+
+.nowPlaying {
+    box-sizing: border-box;
+    background: rgba(0,151,224,0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+.shadowText {
+    text-shadow: -1px 0 #FBCB0F, 0 1px #FBCB0F, 1px 0 #FBCB0F, 0 -1px #FBCB0F;
+}

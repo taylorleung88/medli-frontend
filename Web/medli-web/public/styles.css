@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 6em;
+  color: #1F3A72;
+  padding-top: .5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+.button {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #AAC3DC;
+  border-radius: 12px;
+  padding: .5em .5em;
+  color: #1F3A72;
+  margin: 1.5em;
+}
+
+.App-text {
+  margin: 0 auto;
+  width: 35%;
+  padding: 1em;
+  color: #CAD0E1;
+}
+
+.Blue-wrap {
+    background-color: #7D9CC8;
+    text-align: center;
+}
+
+.Blue-background {
+  background-color: #7D9CC8;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "medli-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "app": "^0.1.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.5",
+    "react-toastify": "^4.4.3",
+    "redux-thunk": "^2.3.0",
+    "rxjs": "^6.3.3",
+    "spotify-web-api-js": "^1.1.1",
+    "webpack": "^3.11.0",
+    "wepback": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "redux": "^4.0.1",
+    "redux-devtools": "^3.4.1",
+    "redux-devtools-extension": "^2.13.5"
+  }
+}
